@@ -31,7 +31,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/m12/proprietary/lib64/libstagefright_codecbase.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libstagefright_codecbase.so \
     vendor/samsung/m12/proprietary/lib64/libstagefright_framecapture_utils.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libstagefright_framecapture_utils.so \
     vendor/samsung/m12/proprietary/lib64/libstagefright_surface_utils.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libstagefright_surface_utils.so \
-    vendor/samsung/m12/proprietary/odm/etc/vintf/manifest_disabled.xml:$(TARGET_COPY_OUT_ODM)/etc/vintf/manifest_disabled.xml \
     vendor/samsung/m12/proprietary/odm/etc/vintf/manifest_hce.xml:$(TARGET_COPY_OUT_ODM)/etc/vintf/manifest_hce.xml \
     vendor/samsung/m12/proprietary/odm/etc/vintf/manifest_hceese.xml:$(TARGET_COPY_OUT_ODM)/etc/vintf/manifest_hceese.xml \
     vendor/samsung/m12/proprietary/odm/etc/vintf/manifest_hcesim.xml:$(TARGET_COPY_OUT_ODM)/etc/vintf/manifest_hcesim.xml \
@@ -876,6 +875,9 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/m12/proprietary/vendor/tee/driver/00000000-0000-0000-0000-564c544b4456:$(TARGET_COPY_OUT_VENDOR)/tee/driver/00000000-0000-0000-0000-564c544b4456 \
     vendor/samsung/m12/proprietary/vendor/tee/tui/resolution_common/ID00000100:$(TARGET_COPY_OUT_VENDOR)/tee/tui/resolution_common/ID00000100 \
     vendor/samsung/m12/proprietary/vendor/ueventd.rc:$(TARGET_COPY_OUT_VENDOR)/ueventd.rc
+
+ODM_MANIFEST_FILES += 
+    vendor/samsung/m12/proprietary/odm/etc/vintf/manifest_disabled.xml:$(TARGET_COPY_OUT_ODM)/etc/vintf/manifest_disabled.xml
 
 PRODUCT_PACKAGES += \
     com.samsung.android.biometrics.face.signed \
