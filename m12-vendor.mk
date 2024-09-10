@@ -873,11 +873,11 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/m12/proprietary/vendor/ueventd.rc:$(TARGET_COPY_OUT_VENDOR)/ueventd.rc
 
 ODM_MANIFEST_FILES += \
-    vendor/samsung/m12/proprietary/odm/etc/vintf/manifest_disabled.xml:$(TARGET_COPY_OUT_ODM)/etc/vintf/manifest_disabled.xml \
-    vendor/samsung/m12/proprietary/odm/etc/vintf/manifest_hce.xml:$(TARGET_COPY_OUT_ODM)/etc/vintf/manifest_hce.xml \
-    vendor/samsung/m12/proprietary/odm/etc/vintf/manifest_hceese.xml:$(TARGET_COPY_OUT_ODM)/etc/vintf/manifest_hceese.xml \
-    vendor/samsung/m12/proprietary/odm/etc/vintf/manifest_hcesim.xml:$(TARGET_COPY_OUT_ODM)/etc/vintf/manifest_hcesim.xml \
-    vendor/samsung/m12/proprietary/odm/etc/vintf/manifest_hcesimese.xml:$(TARGET_COPY_OUT_ODM)/etc/vintf/manifest_hcesimese.xml
+    vendor/samsung/m12/proprietary/odm/etc/vintf/manifest_disabled.xml \
+    vendor/samsung/m12/proprietary/odm/etc/vintf/manifest_hce.xml \
+    vendor/samsung/m12/proprietary/odm/etc/vintf/manifest_hceese.xml \
+    vendor/samsung/m12/proprietary/odm/etc/vintf/manifest_hcesim.xml \
+    vendor/samsung/m12/proprietary/odm/etc/vintf/manifest_hcesimese.xml
 
 PRODUCT_PACKAGES += \
     com.samsung.android.biometrics.face.signed \
